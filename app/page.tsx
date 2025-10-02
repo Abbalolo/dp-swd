@@ -51,7 +51,7 @@ export default function Home() {
       </div>
 
       {/* Features Grid */}
-      <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
+      <div className="flex justify-center flex-col md:flex-row gap-8 mb-12 ">
         <div className="text-center p-6 bg-white rounded-lg shadow-sm">
           <HeartPulse className="w-12 h-12 text-green-600 mx-auto mb-4" />
           <h3 className="font-semibold text-lg mb-2 text-black">AI Prediction</h3>
