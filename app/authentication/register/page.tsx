@@ -44,7 +44,7 @@ export default function Register() {
         icon: "success",
       });
 
-      router.push("/dashboard");
+      router.push("/authentication/login");
     } catch (error: any) {
       Swal.fire({
         icon: "error",
