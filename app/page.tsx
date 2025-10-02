@@ -14,7 +14,7 @@ export default function Home() {
     if (!loading && user) {
       router.push('/dashboard')
     }
-    router.push('/')
+
   }, [user, loading, router])
 
   // if (loading || user) {

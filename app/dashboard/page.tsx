@@ -13,7 +13,6 @@ export default function Dashboard() {
     if (!loading && !user) {
       router.push('/authentication/login')
     }
-    router.push("/")
   }, [user, loading, router])
 
   if (loading) {
